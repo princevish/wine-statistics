@@ -12,6 +12,12 @@ interface StatisticsTableProps {
   typeStatics: string;
 }
 
+/**
+ * The `StatisticsTable` component renders a table displaying statistics for different classes of wine
+ * data.
+ * @param  - - `wineData`: An array of objects representing wine data.
+ * @returns The code is returning a table component with the following structure:
+ */
 const StatisticsTable: FC<StatisticsTableProps> = ({
   wineData,
   typeStatics,
